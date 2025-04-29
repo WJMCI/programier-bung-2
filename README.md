@@ -11,4 +11,4 @@ Jakob Weninger, Paul Riedlsperger
 4. pdm add numpy
 5. pdm add matplotlib
 6. gegebenfalls mit str shift p python interpretor ändern auf venv 
-7. 
+7. ![alt text](image.png)
