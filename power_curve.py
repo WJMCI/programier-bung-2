@@ -8,7 +8,7 @@ power_W = data['PowerOriginal']
 sorted_power_W = bubble_sort(power_W)
 def time_array():
     time=np.arange(0, len(power_W), 1)
-    return time
+    return time/60
 print(time_array())
 
 
@@ -21,6 +21,6 @@ def plot_power_curve(sorted_power_W, time_array):
     plt.grid()
     plt.legend()
     plt.show()
+    plt.savefig('power_curve.png')
 
-plot_power_curve(sorted_power_W, time_array)
-
+plot_power_curve(sorted_power_W[::-1], time_array)
