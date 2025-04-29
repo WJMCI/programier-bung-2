@@ -3,4 +3,4 @@ These exercise was completed by :
 Jakob Weninger, Paul Riedlsperger
 ##
 
-![power_curve](./figures/meinpower_curve.png)
+![power_curve](./figures/Figure_1_power_time.png)
