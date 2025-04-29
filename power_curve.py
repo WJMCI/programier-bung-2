@@ -20,7 +20,7 @@ def plot_power_curve(sorted_power_W, time_array):
     plt.ylabel('Power (W)')
     plt.grid()
     plt.legend()
-    plt.show()
     plt.savefig('power_curve.png')
+    plt.show()
 
 plot_power_curve(sorted_power_W[::-1], time_array)
